@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj": {}
+  },
+  "projects": {
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj",
+        "projectName": "QuantConnect.BitstampBrokerage",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "QuantConnect.Brokerages": {
+              "target": "Package",
+              "version": "[2.5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

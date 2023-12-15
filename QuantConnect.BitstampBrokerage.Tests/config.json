@@ -1,0 +1,10 @@
+{
+  // engine
+  "data-folder": "../../../../Lean/Data/",
+  
+  // Bitstamp configuration
+  "Bitstamp-api-secret": "",
+  "Bitstamp-api-key": "",
+  "Bitstamp-verification-tier": "Starter", // Starter, Intermediate, Pro
+  "Bitstamp-orderbook-depth": 10 // Valid Options are: 10, 25, 100, 500, 1000
+}

@@ -1,0 +1,7 @@
+/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/Debug/QuantConnect.BitstampBrokerage.csproj.AssemblyReference.cache
+/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/Debug/QuantConnect.BitstampBrokerage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/Debug/QuantConnect.BitstampBrokerage.csproj.CoreCompileInputs.cache
+/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/Debug/QuantConnect.BitstampBrokerage.sourcelink.json
+C:\Users\user\Desktop\lean.brokerage.bitstamp\QuantConnect.BitstampBrokerage\obj\Debug\QuantConnect.BitstampBrokerage.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\lean.brokerage.bitstamp\QuantConnect.BitstampBrokerage\obj\Debug\QuantConnect.BitstampBrokerage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\lean.brokerage.bitstamp\QuantConnect.BitstampBrokerage\obj\Debug\QuantConnect.BitstampBrokerage.csproj.CoreCompileInputs.cache

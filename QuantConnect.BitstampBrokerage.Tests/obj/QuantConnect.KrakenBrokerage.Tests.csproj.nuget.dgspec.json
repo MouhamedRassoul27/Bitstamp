@@ -1,0 +1,2356 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.Tests/QuantConnect.BitstampBrokerage.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj",
+        "projectName": "QuantConnect.BitstampBrokerage",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "QuantConnect.Brokerages": {
+              "target": "Package",
+              "version": "[2.5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.Tests/QuantConnect.BitstampBrokerage.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.Tests/QuantConnect.BitstampBrokerage.Tests.csproj",
+        "projectName": "QuantConnect.BitstampBrokerage.Tests",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.Tests/QuantConnect.BitstampBrokerage.Tests.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/QuantConnect.BitstampBrokerage.ToolBox.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/QuantConnect.BitstampBrokerage.ToolBox.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/QuantConnect.Tests.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/QuantConnect.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/QuantConnect.BitstampBrokerage.ToolBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/QuantConnect.BitstampBrokerage.ToolBox.csproj",
+        "projectName": "QuantConnect.BitstampBrokerage.ToolBox",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/QuantConnect.BitstampBrokerage.ToolBox.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage.ToolBox/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean.Brokerages.Bitstamp/QuantConnect.BitstampBrokerage/QuantConnect.BitstampBrokerage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "QuantConnect.ToolBox": {
+              "target": "Package",
+              "version": "[2.5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj",
+        "projectName": "QuantConnect.Algorithm.CSharp",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accord": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Fuzzy": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.MachineLearning": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Math": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Statistics": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "DynamicInterop": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj",
+        "projectName": "QuantConnect.Algorithm.Framework",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accord": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Math": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Statistics": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj",
+        "projectName": "QuantConnect.Algorithm",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj",
+        "projectName": "QuantConnect.AlgorithmFactory",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj",
+        "projectName": "QuantConnect.Api",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj",
+        "projectName": "QuantConnect.Brokerages",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[19.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj",
+        "projectName": "QuantConnect.Common",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloneExtensions": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QLNet": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            },
+            "fasterflect": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.1.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj",
+        "projectName": "QuantConnect.Compression",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj",
+        "projectName": "QuantConnect.Configuration",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "McMaster.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj",
+        "projectName": "QuantConnect.Lean.Engine",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "fasterflect": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj",
+        "projectName": "QuantConnect.Indicators",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/QuantConnect.Lean.Launcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/QuantConnect.Lean.Launcher.csproj",
+        "projectName": "QuantConnect.Lean",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/QuantConnect.Lean.Launcher.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/QuantConnect.Optimizer.Launcher.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/QuantConnect.Optimizer.Launcher.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DynamicInterop": {
+              "target": "Package",
+              "version": "[0.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj",
+        "projectName": "QuantConnect.Logging",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj",
+        "projectName": "QuantConnect.Messaging",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NetMQ": {
+              "target": "Package",
+              "version": "[4.0.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/QuantConnect.Optimizer.Launcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/QuantConnect.Optimizer.Launcher.csproj",
+        "projectName": "QuantConnect.Optimizer.Launcher",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/QuantConnect.Optimizer.Launcher.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer.Launcher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj",
+        "projectName": "QuantConnect.Optimizer",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj",
+        "projectName": "QuantConnect.Queues",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/QuantConnect.Report.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/QuantConnect.Report.csproj",
+        "projectName": "QuantConnect.Report",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/QuantConnect.Report.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Deedle": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj",
+        "projectName": "QuantConnect.Research",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Plotly.NET": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Plotly.NET.Interactive": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/QuantConnect.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/QuantConnect.Tests.csproj",
+        "projectName": "QuantConnect.Tests",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/QuantConnect.Tests.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.CSharp/QuantConnect.Algorithm.CSharp.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm.Framework/QuantConnect.Algorithm.Framework.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Algorithm/QuantConnect.Algorithm.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/AlgorithmFactory/QuantConnect.AlgorithmFactory.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Api/QuantConnect.Api.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Indicators/QuantConnect.Indicators.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/QuantConnect.Lean.Launcher.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Launcher/QuantConnect.Lean.Launcher.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Messaging/QuantConnect.Messaging.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Optimizer/QuantConnect.Optimizer.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Queues/QuantConnect.Queues.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/QuantConnect.Report.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Report/QuantConnect.Report.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Research/QuantConnect.Research.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Accord": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Accord.Math": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Common.Logging.Core": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Deedle": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Microsoft.TestPlatform.ObjectModel": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "NetMQ": {
+              "target": "Package",
+              "version": "[4.0.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.1.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj",
+        "projectName": "QuantConnect.ToolBox",
+        "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/QuantConnect.ToolBox.csproj",
+        "packagesPath": "/Users/developpeurfull-stacksonatel/.nuget/packages/",
+        "outputPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/ToolBox/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/developpeurfull-stacksonatel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Brokerages/QuantConnect.Brokerages.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Common/QuantConnect.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Compression/QuantConnect.Compression.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Configuration/QuantConnect.Configuration.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Engine/QuantConnect.Lean.Engine.csproj"
+              },
+              "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj": {
+                "projectPath": "/Users/developpeurfull-stacksonatel/Documents/broker/Lean/Logging/QuantConnect.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CoinAPI.WebSocket.V1": {
+              "target": "Package",
+              "version": "[1.6.7, )"
+            },
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Common.Logging.Core": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "IQFeed.CSharpApiClient": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "LaunchDarkly.EventSource": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "McMaster.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "QuantConnect.pythonnet": {
+              "target": "Package",
+              "version": "[2.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
